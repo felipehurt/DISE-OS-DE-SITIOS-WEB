@@ -1,27 +1,29 @@
 *{
 	padding:0px;
 	margin:0px;
-	font-family: Arial;
+	font-family: franklin gothic Book;
 }
 
 body{
-	font: 15px Arial;
+	font: 15px franklin gothic Book;
 	padding:0px;
 	margin:0px;
 }	
 
 header{
-  background:#24282b;
-  color:#ffffff;
+  background:#ffffff;
+  color:;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#1293d4 5px solid;
+  border-top:#F0B429 7px solid;
+  border-bottom :#005883 15px solid;
+ 
 }
 
 #header {
 	margin: auto;
 	width: 100%;
-	font-family: Arial;
+	font-family: franklin gothic Book;
 }
 
 ul,ol{
@@ -31,7 +33,7 @@ ul,ol{
 }
 
 .nav li a{
-	background: black;
+	background:  #005883;
 	color: white;
 	text-decoration: :none;
 	padding: 10px 15px;
@@ -39,7 +41,7 @@ ul,ol{
 	}
 
 .nav li a:hover{
-	background-color: pink;
+	background-color: #F0B429;
 }
 .nav > li {
 	float: left;
@@ -66,15 +68,29 @@ ul,ol{
 
 #cabecera{
   min-height:400px;
-  background:url('../img/cabecera.jpg') no-repeat 0 -400px;
+  background:url('../img/cabecera.jpg') no-repeat 0 -200px;
   text-align:center;
-  color:#ffffff;
+  border-top :#F0B429 2px solid;
 }
 
 #cabecera h1{
   font-size:55px;
   margin-bottom:10px;
-  font-family: Arial;
+  font-family: franklin gothic Book;
 }
+
+.contenedor{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
 }
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#1293d4;
+  text-align: center;
+}
+
 
