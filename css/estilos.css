@@ -26,7 +26,7 @@ header{
 	font-family: franklin gothic Book;
 }
 
-ul,ol{
+ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -35,7 +35,7 @@ ul,ol{
 .nav li a{
 	background:  #005883;
 	color: white;
-	text-decoration: :none;
+	text-decoration:none;
 	padding: 10px 15px;
 	display: block;
 	}
@@ -93,4 +93,9 @@ footer{
   text-align: center;
 }
 
-
+.d{
+  list-style-type: lower-alpha;
+}
+p{
+	font-family: franklin gothic Book
+}
